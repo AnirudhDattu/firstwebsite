@@ -1,48 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Anirudh personal Site</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+  <link rel="stylesheet" href="login.css">
+  <script src="login.js"></script>
 </head>
 <body>
-    <h1>Anirudh Dattu</h1>
-    <P>
-        <i>Hi!! </i>This is <strong>Anirudh Dattu</strong>, welcome to my web page, I am starting to learn how to code HTML.<br />
-        Hope you like it.
-    </P>
-    <p>
-        I love watching movies and enjoy my time learning new stuff.<br />I study at BML Munjal university, DELHI.<br />I am from hyderabad, Telangana.
-        <hr />
-        <h3>HOW TO REACH ME</h3>
-    <p>My PH.No:- 9246571596 <br />You Can Always Mail Me:-anirudhdatt3@gmail.com</p>
-    <hr />
-    <h3>My Friends</h3>
-    <ul>
-        <li><a href="Kushaal link html.html">Kushaal</a></li>
-        <li><a href="Aryan LINK HTML.html">Aryan</a></li>
-        <li><a href="Lahari link html.html">Lahari</a></li>
-        <li><a href="Apurva.html">Apurva</a></li>
-        <li>likith</li>
-        <li>Akaash</li>
-        <li>Kartik</li>
-        <li>Pranav</li>
-        <li>Akashaya</li>
-        <li>Meenakshi</li>
-        <li>Abhinav</li>
-        <li>Swami</li>
-        <li>Tej</li>
-        
-    </ul>
-    <p>sorry if I forget someone, you will always be in my heart.</p>
-    <h3>Why are they my friends</h3>
-    <ol>
-        <li>They are stupid</li>
-        <li>They are crazy</li>
-        <li>They cant stay mad at me(one is exception)</li>
-        <li>I am Better than them</li>
-        <li>Coincidently they are my classmates(don't mind kushaal,Abhinav,Swami)</li>
-        <li>I rated them you can see if you want <a href="Friends Rating.html">click here</a></li>
-    </ol>
-    <hr />
+  <div class="container">
+    <div class="screen">
+      <div class="screen__content">
+        <form class="login">
+          <div class="login__field">
+            <i class="login__icon fas fa-user"></i>
+            <input type="text" class="login__input" placeholder="User name" id="username">
+          </div>
+          <div class="login__field">
+            <i class="login__icon fas fa-lock"></i>
+            <input type="password" class="login__input" placeholder="Password" id="password">
+          </div>
+          <button class="button login__submit" onclick="validate(event)">
+            <span class="button__text">Log In Now</span>
+            <i class="button__icon fas fa-chevron-right"></i>
+          </button>       
+        </form>
+      </div>
+      <div class="screen__background">
+        <span class="screen__background__shape screen__background__shape4"></span>
+        <span class="screen__background__shape screen__background__shape3"></span>     
+        <span class="screen__background__shape screen__background__shape2"></span>
+        <span class="screen__background__shape screen__background__shape1"></span>
+      </div>    
+    </div>
+  </div>
 </body>
 </html>

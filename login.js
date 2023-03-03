@@ -15,4 +15,5 @@ function validate(event) {
 }
 
 const submitButton = document.querySelector('.login__submit');
+
 submitButton.addEventListener('click', validate);

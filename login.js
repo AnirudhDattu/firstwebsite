@@ -11,7 +11,7 @@ function validate(event) {
   }
 
   // Redirect to another page on successful login
-  window.location.href = 'index.html';
+  window.location.href = 'mainpage.html';
 }
 
 const submitButton = document.querySelector('.login__submit');

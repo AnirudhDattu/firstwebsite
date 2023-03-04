@@ -21,3 +21,15 @@ body{
 	font-family: Microsoft New Tai Lue	
 	;
 }
+
+a:link {
+	color: black;
+  }
+  
+  a:hover {
+	color: blue;
+  }
+  
+  a:active {
+	color: green;
+  }

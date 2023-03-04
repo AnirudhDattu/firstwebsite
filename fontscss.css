@@ -1,0 +1,34 @@
+.p0{
+	font-family: Comic Sans MS;
+}
+
+.p1 {
+	font-family: cursive;
+}
+
+.p2{
+	font-family: Bahnschrift SemiBold;	
+
+}
+ 
+.p3{
+	font-family: Microsoft New Tai Lue	
+	;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
+
+img {
+    border-radius: 2%;
+  }

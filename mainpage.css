@@ -3,3 +3,21 @@ body{
 	position: relative;		
 	box-shadow: 524px 524px 24px #5C5696;
 }
+
+.p0{
+	font-family: Comic Sans MS;
+}
+
+.p1 {
+	font-family: cursive;
+}
+
+.p2{
+	font-family: Bahnschrift SemiBold;	
+
+}
+ 
+.p3{
+	font-family: Microsoft New Tai Lue	
+	;
+}

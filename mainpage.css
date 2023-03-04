@@ -6,6 +6,7 @@ body{
 
 .p0{
 	font-family: Comic Sans MS;
+	
 }
 
 .p1 {
@@ -18,18 +19,6 @@ body{
 }
  
 .p3{
-	font-family: Microsoft New Tai Lue	
-	;
+	font-family: Microsoft New Tai Lue;
 }
 
-a:link {
-	color: black;
-  }
-  
-  a:hover {
-	color: blue;
-  }
-  
-  a:active {
-	color: green;
-  }

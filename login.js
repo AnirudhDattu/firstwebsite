@@ -5,7 +5,7 @@ function validate(event) {
   const emailValue = emailInput.value.trim();
   const passwordValue = passwordInput.value.trim();
 
-  if (emailValue !== 'anirudh@123' || passwordValue !== 'stupid123') {
+  if (emailValue !== 'anirudh@123' || passwordValue !== 'stupid12') {
     alert('Invalid email or password');
     return false;
   }
